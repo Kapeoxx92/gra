@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="gra.css"/>
+    <script defer src="gra.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div id="lewy">
+        <div class="dialogelse" onclick="oknaDialogowe()" data-options="Wsiądź,Gdzie ja jestem?">
+            Co tak stoisz, amigo? Wsiadaj.
+          </div>
+    </div>
+    <div id="prawy">
+        <div id="prawyprawy">
+            <div class="bron item">
+
+            </div>
+            
+            <div class="lewa item">
+                
+            </div>
+        </div>
+        <div id="postac">
+
+        </div>
+        <div id="prawylewy">
+            <div class="plecak item" >
+                
+            </div>
+            
+            <div class="prawa item" >
+                
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+        <div id="prawydol">
+            <div class="dialog" onclick="intro()">
+                &lt;Wsiądź&gt;
+            </div>
+            <div class="dialog" onclick="gdzieJestem()">
+                Gdzie ja jestem?
+            </div>            
+        </div>
+    </div>
+</body>
+<audio id="background-music" controls>
+    <source src="muza.mp3" type="audio/mpeg">
+  </audio>
+</html>
